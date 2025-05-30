@@ -41,6 +41,8 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
 ![Screenshot 4](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s4.jpg)
 
 
+---
+
 ## 📱 Android Local Server Info
 
 To stream videos on Android using GWeb:
@@ -52,8 +54,9 @@ To stream videos on Android using GWeb:
    - `enc.key`
    - `index.html`
 
-3. For smooth playback, it is **required** to install:  
+3. To play videos, it is required to install:  
    🎬 **[MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)**
+
 
 ![Screenshot 5](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s5.png)
 
