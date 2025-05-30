@@ -14,7 +14,8 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
 
 ## 🎥 Setup Tutorial
 
-📺 [https://youtu.be/ElEUCZjwg24](https://youtu.be/ElEUCZjwg24)
+📺 <a href="https://youtu.be/ElEUCZjwg24" target="_blank">https://youtu.be/ElEUCZjwg24</a>
+
 
 ---
 
