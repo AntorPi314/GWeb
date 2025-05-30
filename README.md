@@ -74,5 +74,5 @@ To stream videos on Android using GWeb:
 > - Or **temporarily disable Windows Defender**.
 > - You may also **allow the app through your firewall** if prompted.
 
-
+---
 
