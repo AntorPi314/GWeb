@@ -8,7 +8,9 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
 
 1. ✅ Firebase Realtime Database  
 2. ✅ GitHub Desktop (signed in with your GitHub account)  
-3. ✅ Supported OS: Windows 7, 8, 10, 11 or later
+3. ✅ Supported Platforms:
+   - 🪟 Windows 7, 8, 10, 11 or later  
+   - 🤖 Android mobile devices (with local server support)
 
 ---
 
