@@ -63,4 +63,16 @@ To stream videos on Android using GWeb:
 ---
 
 
+## ⚠️ Windows Security Notice
+
+> ⚠️ **Important:**  
+> When running the downloaded `.exe` file or starting the local server, **Windows Security** (Defender or SmartScreen) might show a warning.  
+> This is a common behavior for `.exe` files from unknown publishers.  
+>
+> ✅ To continue using GWeb without issues:
+> - Click **“More info”** → **“Run anyway”** (for SmartScreen).
+> - Or **temporarily disable Windows Defender**.
+> - You may also **allow the app through your firewall** if prompted.
+
+
 
