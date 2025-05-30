@@ -1,4 +1,4 @@
-# 🌐 GWeb - Gallery Web
+<h1><img src="https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/icon.svg" width="30" style="vertical-align: middle;"/> GWeb - Gallery Web</h1>
 
 A lightweight media-serving web app powered by Firebase Realtime Database.
 
