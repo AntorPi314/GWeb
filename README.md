@@ -2,7 +2,6 @@
 
 A lightweight media-serving web app powered by Firebase Realtime Database.
 
----
 
 ## ⚙️ Setup Requirements
 
@@ -12,14 +11,12 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
    - 🪟 Windows 7, 8, 10, 11 or later  
    - 🤖 Android mobile devices (with local server support)
 
----
 
 ## 🎥 Setup Tutorial
 
 📺 <a href="https://youtu.be/ElEUCZjwg24" target="_blank">https://youtu.be/ElEUCZjwg24</a>
 
 
----
 
 ## ⌨️ Keyboard & Mouse Shortcuts
 
@@ -31,7 +28,6 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
 | `Ctrl + Shift + M`     | Convert media formats to JPG, PNG, or MP4                |
 | `Alt + Mouse-Click`    | Launch the selected video in **VLC Player**              |
 
----
 
 ## 📸 Screenshots
 
@@ -40,8 +36,6 @@ A lightweight media-serving web app powered by Firebase Realtime Database.
 ![Screenshot 3](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s3.jpg)
 ![Screenshot 4](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s4.jpg)
 
-
----
 
 ## 📱 Android Local Server Info
 
@@ -60,7 +54,6 @@ To stream videos on Android using GWeb:
 
 ![Screenshot 5](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s5.png)
 
----
 
 
 ## ⚠️ Windows Security Notice
@@ -74,5 +67,4 @@ To stream videos on Android using GWeb:
 > - Or **temporarily disable Windows Defender**.
 > - You may also **allow the app through your firewall** if prompted.
 
----
 
