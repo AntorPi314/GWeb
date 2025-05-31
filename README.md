@@ -1,6 +1,23 @@
 <h1><img src="https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/icon.svg" width="30" style="vertical-align: middle;"/> GWeb - Gallery Web</h1>
 
-A lightweight media-serving web app powered by Firebase Realtime Database.
+A lightweight media-serving web app
+
+## 🌟 Features
+- **Organized Media Storage**  
+  Easily upload and manage your photos and videos in a clean, structured layout.
+
+- **Encrypted Video Streaming**  
+  Videos are **encrypted before upload** and can be securely streamed from anywhere.
+
+- **Password-Protected Website**  
+  Full access control with a secure login system to keep your media private.
+
+- **Firebase Realtime Database**  
+  Uses a secure Firebase backend to store and sync data in real time.
+
+- **Unlimited Uploads**  
+  Supports uploading unlimited photos and videos.
+
 
 
 ## ⚙️ Setup Requirements
