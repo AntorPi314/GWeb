@@ -4,5 +4,5 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-KEY:METHOD=AES-128,URI="http://127.0.0.1:8080/enc.key",IV=0x00000000000000000000000000000000
 #EXTINF:14.180833,
-https://github.com/AntorPi314/All/releases/download/All1001/v1001_0.ve
+https://antorpi314.github.io/GWeb/Website/files/All1001/v1001_0.ve
 #EXT-X-ENDLIST
