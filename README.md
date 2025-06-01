@@ -2,7 +2,11 @@
 
 A lightweight media-serving web app
 
-Demo: https://antorpi314.github.io/GWeb/Website
+Demo:  https://antorpi314.github.io/GWeb/Website
+
+Passcode:  abc
+
+enc.key:  A000-000-000-000
 
 ## 🌟 Features
 - **Organized Media Storage**  
