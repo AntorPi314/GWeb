@@ -80,7 +80,7 @@
         android:id="@+id/tip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alt + Mouse-Click ➤ To launch the video in VLC Player"
+        android:text="GWeb requires MX Player Pro to play videos"
         android:textColor="#808080"
         android:textSize="12sp"
         android:layout_marginTop="20dp" />
