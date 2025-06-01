@@ -49,6 +49,7 @@ A lightweight media-serving web app
 ## 📸 Screenshots
 
 ![Screenshot 1](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s1.png)
+![Screenshot 1](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s1a.png)
 ![Screenshot 2](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s2.jpg)
 ![Screenshot 3](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s3.jpg)
 ![Screenshot 4](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s4.jpg)
