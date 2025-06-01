@@ -15,8 +15,6 @@ A lightweight media-serving web app
 - **Firebase Realtime Database**  
   Uses a secure Firebase backend to store and sync data in real time.
 
-- **Unlimited Uploads**  
-  Supports uploading unlimited photos and videos.
 
 
 
@@ -32,9 +30,10 @@ pip install pyperclip requests cryptography Send2Trash Pillow
 ```
 
 
-## 🎥 Setup Tutorial
+<h2><img src="https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/youtube.svg" width="30" style="vertical-align: middle;"/> YouTube Tutorial</h2>
 
-📺 <a href="https://youtu.be/ElEUCZjwg24" target="_blank">https://youtu.be/ElEUCZjwg24</a>
+- [GWeb Setup Tutorial](https://youtu.be/ElEUCZjwg24)
+- [GWeb – How to Play Video from Another PC](https://youtu.be/R2FcvYgmSLw)
 
 
 
@@ -86,5 +85,9 @@ To stream videos on Android using GWeb:
 > - Click **“More info”** → **“Run anyway”** (for SmartScreen).
 > - Or **temporarily disable Windows Defender**.
 > - You may also **allow the app through your firewall** if prompted.
+
+
+## ⚠️ **Warning**  
+> Host files on your own server. Do not abuse GitHub. I’m using it strictly for educational purposes.
 
 
