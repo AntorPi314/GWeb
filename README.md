@@ -26,7 +26,7 @@ Demo: https://antorpi314.github.io/GWeb/Website
 2. ✅ GitHub Desktop (signed in with your GitHub account)  
 3. ✅ VLC Player (Windows) & MX Player Pro (Android)
 
-📦 Python Dependencies
+📦 Python Dependencies:
 ```bash
 pip install pyperclip requests cryptography Send2Trash Pillow
 ```
