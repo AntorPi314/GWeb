@@ -141,9 +141,9 @@ def main():
     if os.path.exists(git_README_path):
         print("📁 README.md already exists. Delete it if you want to remake it.")
         with open(git_README_path, 'r', encoding='utf-8') as f:
-            git_username = f.read().strip()
+            git_README = f.read().strip()
     else:
-        README_data = f"<h1>GWeb - Gallery Web</h1>\n\nhttps://{git_username}.github.io/All"
+        README_data = f"<h1>GWeb - Gallery Web</h1>\n\nhttps://{git_README}.github.io/All"
         with open(git_README_path, 'w', encoding='utf-8') as f:
             f.write(README_data)
         print("✅ Github README.md saved.")
