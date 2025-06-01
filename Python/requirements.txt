@@ -1,0 +1,4 @@
+After installing Python, open Command Prompt, paste the following command, and press Enter:
+
+
+pip install pyperclip requests cryptography Send2Trash Pillow
