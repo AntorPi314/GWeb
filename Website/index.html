@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Gallery Web</title>
+<link rel=icon type=image/svg+xml href="data:image/svg+xml;utf8,
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+      <rect x='10' y='10' width='80' height='80' rx='8' ry='8' fill='%2300c853' stroke='%23ffffff' stroke-width='4'/>
+      <line x1='50' y1='10' x2='50' y2='90' stroke='%23ffffff' stroke-width='4'/>
+      <line x1='10' y1='50' x2='90' y2='50' stroke='%23ffffff' stroke-width='4'/>
+    </svg>">
+<link rel=stylesheet href=main.css>
+</head>
+<body>
+<div class=header>
+<i id=previousButton style=font-size:30px;padding-left:10px;cursor:pointer>
+<svg viewBox="0 0 512 512" style=width:1em;height:1em;fill:currentColor;vertical-align:middle>
+<path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z"/>
+</svg>
+</i>
+<div class=dropdown>
+<select id=dropdownMenu onchange=updateDropDown()></select>
+</div>
+<input type=number class=cidInput id=cidInput type=number>
+<i id=nextButton style=font-size:30px;cursor:pointer>
+<svg viewBox="0 0 512 512" style=width:1em;height:1em;fill:currentColor;vertical-align:middle>
+<path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/>
+</svg>
+</i>
+<i id=applyButton style=font-size:30px;cursor:pointer>
+<svg viewBox="0 0 512 512" style=width:1em;height:1em;fill:currentColor;vertical-align:middle>
+<path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+</svg>
+</i>
+<i id=randomButton style=font-size:30px;padding-right:10px;cursor:pointer>
+<svg viewBox="0 0 576 512" style=width:1.2em;height:1.2em;fill:currentColor;vertical-align:middle>
+<path d="M272 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-112 0c-17.7 0-32-14.3-32-32l0-128 32 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 128c0 53 43 96 96 96l112 0zM304 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l112 0c17.7 0 32 14.3 32 32l0 128-32 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0 0-128c0-53-43-96-96-96L304 96z"/>
+</svg>
+</i>
+</div>
+<div class=gallery id=imageGallery></div>
+<div class=gallery id=imageGallery2></div>
+<div class=gallery id=imageGallery3></div>
+<div class=gallery id=imageGallery4></div>
+<div class=gallery id=imageGallery5></div>
+<div class=viewer id=imageViewer>
+<img id=currentImage src="" alt="Full Screen Image">
+</div>
+<div id=toast style="position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#ff4d4d;color:#fff;padding:12px 20px;border-radius:8px;font-family:sans-serif;box-shadow:0 4px 10px rgba(0,0,0,.2);display:none;z-index:1000;transition:opacity .3s ease"></div>
+<div style=display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;height:50vh>
+<p style="margin:0;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;background:#1f1f1f;padding:14px 28px;border-radius:10px;user-select:none">
+<a href=https://github.com/AntorPi314/GWeb/releases/latest/download/Temporary_enc.key_Server.exe target=_blank rel="noopener noreferrer" onmouseover='this.style.backgroundColor="#222",this.style.color="#eee"' onmouseout='this.style.backgroundColor="#444",this.style.color="#bbb"' style="color:#bbb;text-decoration:none;font-weight:700;padding:12px 26px;background-color:#444;border-radius:8px;display:inline-flex;align-items:center;gap:8px;transition:background-color .3s ease">
+<svg xmlns=http://www.w3.org/2000/svg width=18 height=18 fill=#bbb viewBox="0 0 24 24">
+<path d="M12 16V3M12 16l-5-5M12 16l5-5" stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round />
+<path d="M5 21h14" stroke=currentColor stroke-width=2 stroke-linecap=round />
+</svg>
+Temporary_enc.key_Server.exe
+<svg width=20 height=20 viewBox="0 0 36 44" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M36 21.8671V36.7351C36 37.138 35.9188 37.5368 35.7613 37.9076C35.6039 38.2784 35.3733 38.6137 35.0835 38.8935C34.7936 39.1733 34.4503 39.3919 34.0742 39.5361C33.698 39.6804 33.2966 39.7474 32.894 39.7331L32.628 39.7111L18 37.8831V21.8671H36ZM14 21.8671V37.3831L3.504 36.0711C2.53641 35.9502 1.64631 35.48 1.00105 34.749C0.355778 34.0179 -0.000212265 33.0763 9.49547e-08 32.1011V21.8671H14ZM32.628 0.0231401C33.0277 -0.0267996 33.4335 0.00428463 33.8209 0.114539C34.2084 0.224793 34.5697 0.411958 34.8833 0.66487C35.1969 0.917783 35.4563 1.23126 35.6461 1.5866C35.8359 1.94195 35.9522 2.33188 35.988 2.73314L36 2.99914V17.8671H18V1.85114L32.628 0.0231401ZM14 2.35114V17.8671H9.49547e-08V7.63314C-0.000212265 6.65802 0.355778 5.71641 1.00105 4.98533C1.64631 4.25425 2.53641 3.78405 3.504 3.66314L14 2.35114Z" fill=#757575 />
+</svg>
+</a>
+</p>
+<p style="margin:0;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;background:#1f1f1f;padding:14px 28px;border-radius:10px;user-select:none">
+<a href=https://github.com/AntorPi314/GWeb/releases/latest/download/Temporary_enc.key_Server.apk target=_blank rel="noopener noreferrer" onmouseover='this.style.backgroundColor="#222",this.style.color="#eee"' onmouseout='this.style.backgroundColor="#444",this.style.color="#bbb"' style="color:#bbb;text-decoration:none;font-weight:700;padding:12px 26px;background-color:#444;border-radius:8px;display:inline-flex;align-items:center;gap:8px;transition:background-color .3s ease">
+<svg xmlns=http://www.w3.org/2000/svg width=18 height=18 fill=#bbb viewBox="0 0 24 24">
+<path d="M12 16V3M12 16l-5-5M12 16l5-5" stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round />
+<path d="M5 21h14" stroke=currentColor stroke-width=2 stroke-linecap=round />
+</svg>
+Temporary_enc.key_Server.apk
+<svg width=20 height=20 viewBox="0 0 40 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path fill-rule=evenodd clip-rule=evenodd d="M32.894 0.213431C33.368 0.402918 33.7284 0.734929 33.8961 1.13651C34.0637 1.53809 34.0248 1.97638 33.788 2.35509L31.44 6.10817C34.084 7.57883 36.2433 9.53829 37.7338 11.8195C39.2243 14.1006 40.0018 16.6358 40 19.2088V20.8059C40 21.653 39.5786 22.4655 38.8284 23.0645C38.0783 23.6635 37.0609 24 36 24H4C2.93914 24 1.92172 23.6635 1.17158 23.0645C0.421431 22.4655 4.47005e-06 21.653 4.47005e-06 20.8059V19.2088C-0.00215091 16.6356 0.775192 14.1 2.26573 11.8186C3.75626 9.5371 5.91575 7.57738 8.56 6.10657L6.212 2.35509C6.08487 2.16683 6.00639 1.9601 5.98122 1.74717C5.95604 1.53423 5.98469 1.31942 6.06545 1.1155C6.14621 0.911569 6.27745 0.722673 6.45137 0.560016C6.6253 0.39736 6.83837 0.264257 7.07794 0.168606C7.3175 0.0729547 7.57869 0.0167037 7.846 0.00319076C8.11331 -0.0103222 8.3813 0.0191776 8.63406 0.0899408C8.88682 0.160704 9.11921 0.271289 9.31744 0.415133C9.51566 0.558977 9.67568 0.733149 9.788 0.927316L12.056 4.54784C14.5642 3.6826 17.2678 3.23691 20 3.23826C22.822 3.23826 25.51 3.7046 27.944 4.54784L30.212 0.927316C30.4493 0.548794 30.8651 0.260982 31.368 0.127122C31.8709 -0.00673772 32.4197 0.024306 32.894 0.213431ZM11 12.8206C10.2044 12.8206 9.44129 13.073 8.87868 13.5223C8.31607 13.9715 8 14.5808 8 15.2162C8 15.8515 8.31607 16.4609 8.87868 16.9101C9.44129 17.3594 10.2044 17.6118 11 17.6118C11.7957 17.6118 12.5587 17.3594 13.1213 16.9101C13.6839 16.4609 14 15.8515 14 15.2162C14 14.5808 13.6839 13.9715 13.1213 13.5223C12.5587 13.073 11.7957 12.8206 11 12.8206ZM29 12.8206C28.2043 12.8206 27.4413 13.073 26.8787 13.5223C26.3161 13.9715 26 14.5808 26 15.2162C26 15.8515 26.3161 16.4609 26.8787 16.9101C27.4413 17.3594 28.2043 17.6118 29 17.6118C29.7956 17.6118 30.5587 17.3594 31.1213 16.9101C31.6839 16.4609 32 15.8515 32 15.2162C32 14.5808 31.6839 13.9715 31.1213 13.5223C30.5587 13.073 29.7956 12.8206 29 12.8206Z" fill=#757575 />
+</svg>
+</a>
+</p>
+</div>
+<script src=main.js></script>
+</body>
+</html>
