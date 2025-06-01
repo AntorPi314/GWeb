@@ -62,8 +62,7 @@ To stream videos on Android using GWeb:
    **http://127.0.0.1:8080/**
 
 2. Ensure the following files are present in the **root directory**:
-   - `enc.key`
-   - `index.html`
+   - `enc.key`  http://127.0.0.1:8080/enc.key
 
 3. To play videos, it is required to install:  
    🎬 **[MX Player Pro](https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.pro)**
