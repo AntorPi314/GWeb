@@ -12,7 +12,8 @@
     <application
         android:label="Temporary enc.key Server"
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+
         android:roundIcon="@drawable/ic_launcher">
 
         <activity

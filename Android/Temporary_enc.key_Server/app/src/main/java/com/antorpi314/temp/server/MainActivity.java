@@ -7,9 +7,9 @@ import android.text.InputType;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.widget.*;
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     EditText encKeyEditText;
     Button toggleServerButton, saveKeyButton;
     CheckBox showKeyCheckbox;
