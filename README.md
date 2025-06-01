@@ -26,6 +26,11 @@ A lightweight media-serving web app
 2. ✅ GitHub Desktop (signed in with your GitHub account)  
 3. ✅ VLC Player (Windows) & MX Player Pro (Android)
 
+📦 Python Dependencies
+```bash
+pip install pyperclip requests cryptography Send2Trash Pillow
+```
+
 
 ## 🎥 Setup Tutorial
 
