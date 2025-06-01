@@ -24,9 +24,7 @@ A lightweight media-serving web app
 
 1. ✅ Firebase Realtime Database  
 2. ✅ GitHub Desktop (signed in with your GitHub account)  
-3. ✅ Supported Platforms:
-   - 🪟 Windows 7, 8, 10, 11 or later  
-   - 🤖 Android mobile devices (with local server support)
+3. ✅ VLC Player (Windows) & MX Player Pro (Android)
 
 
 ## 🎥 Setup Tutorial
@@ -49,7 +47,7 @@ A lightweight media-serving web app
 ## 📸 Screenshots
 
 ![Screenshot 1](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s1.png)
-![Screenshot 1](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s1b.png)
+![Screenshot 1](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s1c.png)
 ![Screenshot 2](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s2.jpg)
 ![Screenshot 3](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s3.jpeg)
 ![Screenshot 4](https://raw.githubusercontent.com/AntorPi314/GWeb/main/Screenshot/s4.jpg)
