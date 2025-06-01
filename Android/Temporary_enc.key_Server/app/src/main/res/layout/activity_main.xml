@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery Web"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your enc.key"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/encKeyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="A000-000-000-000"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/showKeyCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_weight="1"
+            android:text="Show Key" />
+
+        <Button
+            android:id="@+id/saveKeyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1BD144"
+            android:text="Save"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/toggleServerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Start Server"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#218838"
+        android:textStyle="bold"
+        android:padding="12dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alt + Mouse-Click ➤ To launch the video in VLC Player"
+        android:textColor="#808080"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit:"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/githubLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" https://github.com/AntorPi314"
+            android:textColor="#0000FF"
+            android:textSize="12sp"
+            android:autoLink="web"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+</LinearLayout>

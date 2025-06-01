@@ -1,0 +1,23 @@
+<!-- res/drawable/ic_launcher.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:fillColor="#00c853"
+        android:pathData="M10,10h80a8,8 0 0 1 8,8v64a8,8 0 0 1 -8,8h-80a8,8 0 0 1 -8,-8v-64a8,8 0 0 1 8,-8z"/>
+
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M50,10L50,90" />
+
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M10,50L90,50" />
+</vector>
