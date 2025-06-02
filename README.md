@@ -6,7 +6,7 @@ Demo:  https://antorpi314.github.io/GWeb/Website
 
 Passcode:  abc
 
-Video Encryption Key (enc.key):  A000-000-000-000
+Video Encryption/Decryption  Key (enc.key):  A000-000-000-000
 
 ## 🌟 Features
 - **Organized Media Storage**  
