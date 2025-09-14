@@ -130,23 +130,30 @@ def main():
             git_username = f.read().strip()
     else:
         git_username = input("📥 Enter your Github username:\n>> ").strip()
+    
+        # ✅ Sanitize username (remove full URL if given)
+        if git_username.startswith("https://github.com/"):
+            git_username = git_username.replace("https://github.com/", "").strip().strip("/")
+    
         with open(git_username_path, 'w', encoding='utf-8') as f:
             f.write(git_username)
         print("✅ Github Username saved.")
-        
+
+
+    print("DEBUG >> git_username =", repr(git_username)) 
+    
         
     # === Github README.md ===
     print("\n\n== Github README.md ==")
     git_README_path = os.path.join(script_dir, "htdocs", "README.md")
     if os.path.exists(git_README_path):
         print("📁 README.md already exists. Delete it if you want to remake it.")
-        with open(git_README_path, 'r', encoding='utf-8') as f:
-            git_README = f.read().strip()
     else:
-        README_data = f"<h1>GWeb - Gallery Web</h1>\n\nhttps://{git_README}.github.io/All"
+        README_data = f"<h1>GWeb - Gallery Web</h1>\n\nhttps://{git_username}.github.io/All"
         with open(git_README_path, 'w', encoding='utf-8') as f:
             f.write(README_data)
         print("✅ Github README.md saved.")
+
 
 
     # === Zip Password File ===
@@ -241,6 +248,8 @@ def main():
         print("\n🧹 Resetting data...")
 
         # Files and folders to delete
+        git_README_path = os.path.join(script_dir, "htdocs", "README.md")
+        
         paths_to_delete = [
             firebase_path,
             git_username_path,
@@ -250,7 +259,8 @@ def main():
             gitignore_file_2,
             destination_path,
             enc_key,
-            enc_info
+            enc_info,
+            git_README_path
         ]
 
         for path in paths_to_delete:
